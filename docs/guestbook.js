@@ -3,7 +3,7 @@
  */
 const apiUrl = 'https://service.us.apiconnect.ibmcloud.com/gws/apigateway/api/c38ba7467ffdd5c6b7bbed93c5cd7343c0b9d465395f9f2af8d71cff4a04bfaa/guestbook';
 const guestbook = {
-  // retrieve the existing guestbook entries
+  // retrieve the eexisting guestbook entries
   get() {
     return $.ajax({
       type: 'GET',
